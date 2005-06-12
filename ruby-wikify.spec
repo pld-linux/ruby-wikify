@@ -10,7 +10,7 @@ License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.tar.gz
 # Source0-md5:	0716bc1168646715ecbbb4563a64e871
-uRL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
+URL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
 BuildRequires:	ruby
 Requires:	ruby
 #BuildArch:	noarch
