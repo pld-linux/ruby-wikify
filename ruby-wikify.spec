@@ -9,7 +9,7 @@ Release:	1
 License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.tar.gz
-# Source0-md5:	1231f8cbf59d7464e0d17021822d91b7
+# Source0-md5:	0716bc1168646715ecbbb4563a64e871
 uRL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
 BuildRequires:	ruby
 Requires:	ruby
@@ -39,6 +39,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc rdoc
+%doc rdoc README
 %{ruby_rubylibdir}/*
 %{ruby_ridir}/String/wikify*
