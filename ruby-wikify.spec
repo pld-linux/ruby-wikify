@@ -1,7 +1,8 @@
 %define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"])')
 %define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
-Summary:	Object-Relational mapping library for Ruby
+Summary:	Wiki formatting library for Ruby
+Summary(pl):	Biblioteka formatowania Wiki dla jêzyka Ruby
 Name:		ruby-wikify
 %define tarname wikify
 Version:	1.0
@@ -20,6 +21,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 wikify.rb supplies String#wikify, allowing conversion from WikiMarkup
 (e.g. "/foo -bar/ baz-") to proper XHTML 1.0 (e.g. "<em>foo
 <strong>bar</strong></em><strong> baz</strong>").
+
+%description -l pl
+wikify.rb dostarcza String#wikify, umo¿liwiaj±c konwersjê z jêzyka
+WikiMarkup (np. "/foo -bar/ baz-") na odpowiedni kod XHTML 1.0 (np.
+"<em>foo <strong>bar</strong></em><strong> baz</strong>").
 
 %prep
 %setup -q -n %{tarname}-%{version}
