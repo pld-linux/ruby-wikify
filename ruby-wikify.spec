@@ -1,10 +1,7 @@
-%define	ruby_rubylibdir	%(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"])')
-%define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
+%define tarname wikify
 Summary:	Wiki formatting library for Ruby
 Summary(pl):	Biblioteka formatowania Wiki dla jêzyka Ruby
 Name:		ruby-wikify
-%define tarname wikify
 Version:	1.0
 Release:	1
 License:	Ruby-alike
@@ -12,6 +9,7 @@ Group:		Development/Languages
 Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.tar.gz
 # Source0-md5:	0716bc1168646715ecbbb4563a64e871
 URL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 Requires:	ruby
 #BuildArch:	noarch
