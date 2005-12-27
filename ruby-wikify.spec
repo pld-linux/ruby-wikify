@@ -3,15 +3,15 @@ Summary:	Wiki formatting library for Ruby
 Summary(pl):	Biblioteka formatowania Wiki dla jêzyka Ruby
 Name:		ruby-wikify
 Version:	1.0
-Release:	1
+Release:	2
 License:	Ruby-alike
 Group:		Development/Languages
 Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.tar.gz
 # Source0-md5:	0716bc1168646715ecbbb4563a64e871
 URL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
-Requires:	ruby
+BuildRequires:	ruby-modules
+Requires:	ruby-modules
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
