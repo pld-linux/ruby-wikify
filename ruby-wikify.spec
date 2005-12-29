@@ -9,9 +9,9 @@ Group:		Development/Languages
 Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.tar.gz
 # Source0-md5:	0716bc1168646715ecbbb4563a64e871
 URL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
