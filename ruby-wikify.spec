@@ -11,7 +11,7 @@ Source0:	http://community.nbtsc.org/~apollotiger/gadgets/%{tarname}-%{version}.t
 URL:		http://community.nbtsc.org/~apollotiger/ruby-wikify
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
