@@ -1,6 +1,6 @@
 %define tarname wikify
 Summary:	Wiki formatting library for Ruby
-Summary(pl.UTF-8):   Biblioteka formatowania Wiki dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka formatowania Wiki dla języka Ruby
 Name:		ruby-wikify
 Version:	1.0
 Release:	2
