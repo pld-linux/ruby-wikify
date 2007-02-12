@@ -1,6 +1,6 @@
 %define tarname wikify
 Summary:	Wiki formatting library for Ruby
-Summary(pl):	Biblioteka formatowania Wiki dla jêzyka Ruby
+Summary(pl.UTF-8):   Biblioteka formatowania Wiki dla jÄ™zyka Ruby
 Name:		ruby-wikify
 Version:	1.0
 Release:	2
@@ -20,8 +20,8 @@ wikify.rb supplies String#wikify, allowing conversion from WikiMarkup
 (e.g. "/foo -bar/ baz-") to proper XHTML 1.0 (e.g. "<em>foo
 <strong>bar</strong></em><strong> baz</strong>").
 
-%description -l pl
-wikify.rb dostarcza String#wikify, umo¿liwiaj±c konwersjê z jêzyka
+%description -l pl.UTF-8
+wikify.rb dostarcza String#wikify, umoÅ¼liwiajÄ…c konwersjÄ™ z jÄ™zyka
 WikiMarkup (np. "/foo -bar/ baz-") na odpowiedni kod XHTML 1.0 (np.
 "<em>foo <strong>bar</strong></em><strong> baz</strong>").
 
